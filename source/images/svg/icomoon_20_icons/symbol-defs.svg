@@ -1,0 +1,99 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-receiver" viewBox="0 0 32 32">
+<title>receiver</title>
+<path stroke-width="1.616" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M9.902 21.778c3.112 3.062 7.853 7.405 12.285 7.434 4.165 0.029 6.933-3.226 6.933-3.226l-5.906-5.904-4.752 1.741-8.56-8.558 1.798-4.696-5.685-5.688c0 0-3.245 2.779-3.296 6.867-0.053 4.347 4.235 9.034 7.182 12.030"></path>
+</symbol>
+<symbol id="icon-arrow-down" viewBox="0 0 32 32">
+<title>arrow-down</title>
+<path d="M16.8 25.728l-7.792-8.672 1.184-1.056 6.608 7.328 6.608-7.328 1.184 1.056z"></path>
+<path fill="none" stroke="#000" stroke-width="1.6" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" style="stroke: var(--color1, #000)" d="M16.8 6.4v17.6"></path>
+</symbol>
+<symbol id="icon-arrow-left" viewBox="0 0 32 32">
+<title>arrow-left</title>
+<path stroke-width="1.6" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M16 22.4l-8-7.2 8-7.2"></path>
+<path stroke-width="1.6" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M25.6 15.2l-17.6 0.032"></path>
+</symbol>
+<symbol id="icon-arrow-right" viewBox="0 0 32 32">
+<title>arrow-right</title>
+<path stroke-width="1.6" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M16 8l8 7.2-8 7.2"></path>
+<path stroke-width="1.6" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M6.4 15.2h17.6"></path>
+</symbol>
+<symbol id="icon-arrow-up" viewBox="0 0 32 32">
+<title>arrow-up</title>
+<path d="M16.8 6.4l7.792 8.64-1.184 1.088-6.608-7.344-6.608 7.344-1.184-1.088z"></path>
+<path fill="none" stroke="#000" stroke-width="1.6" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" style="stroke: var(--color1, #000)" d="M16.8 25.6v-17.6"></path>
+</symbol>
+<symbol id="icon-chevron-down" viewBox="0 0 32 32">
+<title>chevron-down</title>
+<path stroke-width="1.648" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M25.6 11.2l-9.6 9.6-9.6-9.6"></path>
+</symbol>
+<symbol id="icon-chevron-left" viewBox="0 0 32 32">
+<title>chevron-left</title>
+<path stroke-width="1.648" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M20.8 25.6l-9.6-9.6 9.6-9.6"></path>
+</symbol>
+<symbol id="icon-chevron-right" viewBox="0 0 32 32">
+<title>chevron-right</title>
+<path stroke-width="1.648" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M11.2 6.4l9.6 9.6-9.6 9.6"></path>
+</symbol>
+<symbol id="icon-chevron-up" viewBox="0 0 32 32">
+<title>chevron-up</title>
+<path stroke-width="1.648" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M6.4 20.8l9.6-9.6 9.6 9.6"></path>
+</symbol>
+<symbol id="icon-home" viewBox="0 0 32 32">
+<title>home</title>
+<path d="M29.84 18.16l-13.84-13.824-13.84 13.824-1.12-1.12 14.96-14.976 14.96 14.976z"></path>
+<path d="M24 6.4h4.8v4.8h-1.6v-3.2h-3.2z"></path>
+<path d="M4.8 17.6h1.6v11.2h4.8v-9.6h8v9.6h6.4v-11.2h1.6v12.8h-9.6v-9.6h-4.8v9.6h-8z"></path>
+</symbol>
+<symbol id="icon-image" viewBox="0 0 32 32">
+<title>image</title>
+<path d="M27.52 9.76c0 0.972-0.788 1.76-1.76 1.76s-1.76-0.788-1.76-1.76c0-0.972 0.788-1.76 1.76-1.76s1.76 0.788 1.76 1.76z"></path>
+<path fill="none" stroke="#000" stroke-width="1.6" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" style="stroke: var(--color1, #000)" d="M0.8 4h30.4v24h-30.4v-24z"></path>
+<path fill="none" stroke="#000" stroke-width="1.616" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" style="stroke: var(--color1, #000)" d="M6.4 20.8l6.4-6.4 8 8"></path>
+<path fill="none" stroke="#000" stroke-width="1.616" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" style="stroke: var(--color1, #000)" d="M17.6 19.2l2.4-2.4 5.6 5.6"></path>
+</symbol>
+<symbol id="icon-location" viewBox="0 0 32 32">
+<title>location</title>
+<path stroke-width="1.616" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M16 0.8c-5.744 0-10.4 4.624-10.4 10.368 0 7.76 10.4 19.232 10.4 19.232s10.4-11.472 10.4-19.232c0-5.744-4.656-10.368-10.4-10.368v0z"></path>
+<path stroke-width="1.6" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M19.68 10.88c0 2.032-1.648 3.68-3.68 3.68s-3.68-1.648-3.68-3.68c0-2.032 1.648-3.68 3.68-3.68s3.68 1.648 3.68 3.68z"></path>
+</symbol>
+<symbol id="icon-mail" viewBox="0 0 32 32">
+<title>mail</title>
+<path fill="none" stroke="#000" stroke-width="1.6" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" style="stroke: var(--color1, #000)" d="M2.24 10.4l13.76 7.2 13.76-7.2"></path>
+<path d="M1.6 6.4v19.2h28.8v-19.2h-28.8zM28.8 24h-25.6v-16h25.6v16z"></path>
+</symbol>
+<symbol id="icon-menu" viewBox="0 0 32 32">
+<title>menu</title>
+<path d="M3.2 6.4h25.6v1.6h-25.6v-1.6z"></path>
+<path d="M3.2 14.4h25.6v1.6h-25.6v-1.6z"></path>
+<path d="M3.2 22.4h25.6v1.6h-25.6v-1.6z"></path>
+</symbol>
+<symbol id="icon-phone" viewBox="0 0 32 32">
+<title>phone</title>
+<path fill="none" stroke="#000" stroke-width="1.6" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" style="stroke: var(--color1, #000)" d="M24.8 27.2c0 1.28-1.12 2.4-2.4 2.4h-11.2c-1.28 0-2.4-1.12-2.4-2.4v-22.4c0-1.28 1.12-2.4 2.4-2.4h11.2c1.28 0 2.4 1.12 2.4 2.4v22.4z"></path>
+<path d="M18.080 26.4c0 0.707-0.573 1.28-1.28 1.28s-1.28-0.573-1.28-1.28c0-0.707 0.573-1.28 1.28-1.28s1.28 0.573 1.28 1.28z"></path>
+</symbol>
+<symbol id="icon-phone-landscape" viewBox="0 0 32 32">
+<title>phone-landscape</title>
+<path fill="none" stroke="#000" stroke-width="1.6" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" style="stroke: var(--color1, #000)" d="M27.2 8.8c1.28 0 2.4 1.12 2.4 2.4v11.2c0 1.28-1.12 2.4-2.4 2.4h-22.4c-1.28 0-2.4-1.12-2.4-2.4v-11.2c0-1.28 1.12-2.4 2.4-2.4h22.4z"></path>
+<path d="M7.36 16.8c0 0.707-0.573 1.28-1.28 1.28s-1.28-0.573-1.28-1.28c0-0.707 0.573-1.28 1.28-1.28s1.28 0.573 1.28 1.28z"></path>
+</symbol>
+<symbol id="icon-triangle-down" viewBox="0 0 32 32">
+<title>triangle-down</title>
+<path d="M8 11.2h16l-8 8z"></path>
+</symbol>
+<symbol id="icon-triangle-left" viewBox="0 0 32 32">
+<title>triangle-left</title>
+<path d="M19.2 8l-8 8 8 8z"></path>
+</symbol>
+<symbol id="icon-triangle-right" viewBox="0 0 32 32">
+<title>triangle-right</title>
+<path d="M12.8 8l8 8-8 8z"></path>
+</symbol>
+<symbol id="icon-triangle-up" viewBox="0 0 32 32">
+<title>triangle-up</title>
+<path d="M8 20.8l8-8 8 8z"></path>
+</symbol>
+</defs>
+</svg>

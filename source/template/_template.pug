@@ -1,0 +1,39 @@
+include mixins.pug
+block bemtoUikitSetings
+  -
+    set_bemto_settings({
+    prefix: '',
+    element: '__',
+    modifier: '_',
+    output_element: '-',
+    output_modifier: '-',
+    default_tag: 'div',
+    nosrc_substitute: true,
+    flat_elements: true,
+    class_delimiter: ''
+    })
+
+block variables
+  -var pageClass = 'default';
+
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title #{title}
+    meta(content="" name="author")
+    meta(content="" name="description")
+    meta(content="" name="keywords")
+    meta(content="width=device-width, initial-scale=1" name="viewport")
+    meta(content="ie=edge" http-equiv="x-ua-compatible")
+
+    //- favicon block start
+    //- favicon block end
+    link(rel='stylesheet' href='assets/css/app.css')
+    script(src='assets/js/common.js' defer)
+    script(src='assets/js/app.js' defer)
+
+   
+
+  body(class=`page-${pageClass}`)
+    block content
