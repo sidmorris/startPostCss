@@ -3,6 +3,7 @@ module.exports = function () {
     require("postcss-import"),
     require('postcss-mixins'),
     require('postcss-cssnext'),
+    require('rucksack-css'),
     require('postcss-short')
   ];
 
