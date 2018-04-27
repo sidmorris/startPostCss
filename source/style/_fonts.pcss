@@ -1,0 +1,31 @@
+@define-mixin font-face $fontFamily, $filePath, $weight: normal, $style: normal{
+	@font-face {
+    src: url('$filePath.eot');
+    src: url('$filePath.eot?#iefix') format('embedded-opentype'),
+         url('$filePath.woff2') format('woff2'),
+         url('$filePath.woff') format('woff');
+		font-family: $fontFamily;
+		font-weight: $weight;
+		font-style: $style;
+
+	}
+}
+
+
+@mixin font-face "roboto-ex", ../fonts/Roboto/RobotoThin,                          thin,     normal;
+@mixin font-face "roboto-ex", ../fonts/Roboto/RobotoThinItalic,                    thin,     italic;
+
+@mixin font-face "roboto-ex", ../fonts/Roboto/RobotoLight,                         light,    normal;
+@mixin font-face "roboto-ex", ../fonts/Roboto/RobotoLightItalic,                   light,    italic;
+
+@mixin font-face "roboto-ex", ../fonts/Roboto/Roboto,                              normal,   normal;
+@mixin font-face "roboto-ex", ../fonts/Roboto/RobotoItalic,                        normal,   italic;
+
+@mixin font-face "roboto-ex", ../fonts/Roboto/RobotoMedium,                        medium,   normal;
+@mixin font-face "roboto-ex", ../fonts/Roboto/RobotoMediumItalic,                  medium,   italic;
+
+@mixin font-face "roboto-ex", ../fonts/Roboto/RobotoBold,                          bold,     normal;
+@mixin font-face "roboto-ex", ../fonts/Roboto/RobotoBoldItalic,                    bold,     italic;
+
+
+

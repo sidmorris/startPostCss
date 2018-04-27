@@ -1,8 +1,8 @@
 module.exports = {
 	JS: [
 		//	JQUERY
-		'node_modules/jquery/dist/jquery.js',
-		'node_modules/svgxuse/svgxuse.js' //иконки для загрузки из внешнего источника
+		'node_modules/jquery/dist/jquery.js'
+		// 'node_modules/svgxuse/svgxuse.js' //иконки для загрузки из внешнего источника
 	],
 
 	TASKS: [

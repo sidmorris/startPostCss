@@ -3,7 +3,7 @@ include bemto/lib/index.pug
 mixin icon(name,mod)
 	-var modificator = mod || ''
 		svg(class="icon " + name + ' ' + modificator)
-			use(xlink:href="assets/img/symbol-defs.svg#" + name)
+			use(xlink:href="#" + name)
 
 
 			

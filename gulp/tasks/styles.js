@@ -1,10 +1,8 @@
 module.exports = function () {
   let postPlugins = [
     require("postcss-import"),
+    require('postcss-mixins'),
     require('postcss-cssnext'),
-    require('postcss-font-magician')({
-      hosted: ['./assets/fonts']
-    }),
     require('postcss-short')
   ];
 
