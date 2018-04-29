@@ -1,9 +1,10 @@
 module.exports = function () {
   let postPlugins = [
     require("postcss-import"),
+    require("postcss-fontpath"),
     require('postcss-mixins'),
     require('postcss-cssnext'),
-    require('rucksack-css'),
+    // require('rucksack-css'),
     require('postcss-short')
   ];
 
