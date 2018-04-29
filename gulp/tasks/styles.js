@@ -1,9 +1,14 @@
 module.exports = function () {
   let postPlugins = [
-    require("postcss-import"),
+    require("postcss-import")({
+      path: [
+        "source/style/common",
+      ]
+    }),
+    require("postcss-fontpath"),
     require('postcss-mixins'),
     require('postcss-cssnext'),
-    require('rucksack-css'),
+    // require('rucksack-css'),
     require('postcss-short')
   ];
 
@@ -11,6 +16,11 @@ module.exports = function () {
     return $.gulp.src('source/style/app.pcss')
       .pipe($.gp.postcss(postPlugins))
       .pipe($.gp.rename('app.css'))
+      .pipe($.gp.if(CONST.PRODUCTION,
+        $.gp.uncss({
+          html: [$.PATH.ROOT + '/**/*.html'],
+          ignore: $.cssIgnore
+        })))
       .pipe($.gp.if(CONST.PRODUCTION, $.gp.csso({
         restructure: false,
         sourceMap: false,
