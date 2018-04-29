@@ -1,6 +1,10 @@
 module.exports = function () {
   let postPlugins = [
-    require("postcss-import"),
+    require("postcss-import")({
+      path: [
+        "source/style/common",
+      ]
+    }),
     require("postcss-fontpath"),
     require('postcss-mixins'),
     require('postcss-cssnext'),
