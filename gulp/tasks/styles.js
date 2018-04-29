@@ -16,6 +16,11 @@ module.exports = function () {
     return $.gulp.src('source/style/app.pcss')
       .pipe($.gp.postcss(postPlugins))
       .pipe($.gp.rename('app.css'))
+      .pipe($.gp.if(CONST.PRODUCTION,
+        $.gp.uncss({
+          html: [$.PATH.ROOT + '/**/*.html'],
+          ignore: $.cssIgnore
+        })))
       .pipe($.gp.if(CONST.PRODUCTION, $.gp.csso({
         restructure: false,
         sourceMap: false,
