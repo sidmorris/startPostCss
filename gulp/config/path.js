@@ -1,4 +1,16 @@
 module.exports = {
+	postPlugins: [
+		require("postcss-import")({
+      path: [
+        "source/style/common",
+      ]
+    }),
+    require("postcss-fontpath"),
+    require('postcss-mixins'),
+    require('postcss-cssnext'),
+		require('postcss-short'),
+		require('postcss-easing-gradients')
+	],
 	JS: [
 		//	JQUERY
 		'node_modules/jquery/dist/jquery.js'

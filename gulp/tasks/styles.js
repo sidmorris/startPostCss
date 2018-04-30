@@ -1,20 +1,8 @@
 module.exports = function () {
-  let postPlugins = [
-    require("postcss-import")({
-      path: [
-        "source/style/common",
-      ]
-    }),
-    require("postcss-fontpath"),
-    require('postcss-mixins'),
-    require('postcss-cssnext'),
-    // require('rucksack-css'),
-    require('postcss-short')
-  ];
 
   $.gulp.task('styles', function () {
     return $.gulp.src('source/style/app.pcss')
-      .pipe($.gp.postcss(postPlugins))
+      .pipe($.gp.postcss($.PATH.postPlugins))
       .pipe($.gp.rename('app.css'))
       .pipe($.gp.if(CONST.PRODUCTION,
         $.gp.uncss({
