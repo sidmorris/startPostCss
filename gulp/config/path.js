@@ -4,7 +4,8 @@ module.exports = {
       path: [
         "source/style/common",
       ]
-    }),
+		}),
+		require('postcss-simple-vars'),
     require("postcss-fontpath"),
     require('postcss-mixins'),
     require('postcss-cssnext'),
